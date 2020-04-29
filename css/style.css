@@ -1,0 +1,120 @@
+#body-content{
+	display: flex;
+}
+/*start block-left*/
+
+#block-left{
+	width: 13%;
+
+}
+#right-category{
+	margin-top: 20px;
+}
+#right-category>div{
+	margin: 10px;
+
+}
+#right-category{
+	font : 25px sans-serif;
+	text-decoration: none;
+}
+#right-category>div>a{
+	text-decoration: none;
+}
+#right-category>div>a:hover{
+	text-decoration: underline;
+}
+/*end block-left*/
+
+/*Start block-right*/
+#block-right{
+	width: 90%;
+}
+#header-block{
+	display: flex;
+}
+#header-block > div{
+	margin-right: 4%;
+	margin-top: 10px;
+	margin-left: 1%; 
+
+
+}
+#header-block a{
+	font:15px sans-serif;
+	text-decoration:none;
+
+}
+
+#search-input{
+	height: 40px;
+	border-radius: 50px;
+	width: 500px; 
+}
+#block-post{
+	padding-top: 15px;
+}
+#search-block{
+	margin-left:50px;
+}
+
+
+/*End block-right*/
+
+
+/*Start sorting block*/
+#choose-block{
+
+}
+#choose-block select{
+	margin-top: 2%;
+	margin-left:1%; 
+	font:15px sans-serif;
+	border-radius: 100px; 
+	color: black;
+}
+
+#choose-block >form>select {
+	width: 125px;
+	height: 30px;
+}
+/*End sorting block*/
+
+/*Start content-block*/
+
+#block-content{
+	margin: 10px;
+	
+}
+#grid-content > li{
+	float: left;
+	list-style-type: none;
+
+}
+#grid-content > li > div{
+	border: 2px solid white;
+
+}
+#grid-content > li > div:hover{
+	border: 2px solid black;
+
+}
+
+
+.style-title {
+	text-align: center;
+}
+.style-title > a {
+	text-decoration: none;
+	font: 15px sans-serif;
+	color: black;
+	color: rgb(144,144,144);
+	font-weight: bold;
+}
+.style-price{
+	text-align: center;
+	font: 20px sans-serif;
+	color: rgb(183,82,79);
+}
+
+/*End contetn-block*/
